@@ -11,3 +11,5 @@ input.txt
 env/
 venv/
 wandb
+.env
+experiments/

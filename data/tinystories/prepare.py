@@ -15,6 +15,7 @@ print(f"Vocab size: {enc.max_token_value}")
 
 if __name__ == '__main__':
     dataset = load_dataset("roneneldan/TinyStories", num_proc=num_proc_load_dataset)
+    dataset['val'] = dataset.pop('validation')
     print(dataset)
 
     def process(example):
