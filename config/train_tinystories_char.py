@@ -9,7 +9,7 @@ log_interval = 10 # don't print too too often
 always_save_checkpoint = False
 
 wandb_log = True # override via command line if you like
-wandb_project = 'tinystories-char'
+wandb_project = 'poormans-nanogpt'
 wandb_run_name = 'mini-gpt'
 
 dataset = 'tinystories'
